@@ -38,9 +38,6 @@ const getCharactersRank = function(rank){
     let status = false
 
     listImportDados.dados.data.characters.forEach(function(item){
-
-        console.log(String(item.rank.toUpperCase()))
-        console.log(typeCharacter)
         if(String(item.rank.toUpperCase()) == typeCharacter){
             arrayListCharacter.push(item)
             status = true
@@ -83,7 +80,6 @@ const getCharactersById = function(id){
         listDadosJSON.characters = arrayListCharacter
     }
 
-    console.log(arrayListCharacter)
     if (!status)
         return message_error_not_found
     else
