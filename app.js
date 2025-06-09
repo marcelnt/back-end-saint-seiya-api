@@ -12,7 +12,7 @@
         body-parser     npm install body-parser --save      - Serve para manipular os dados do body da API
 */
 
-const PORT = process.env.PORT || 8080; 
+const PORT = process.env.PORT || 1000; 
 
 //Import das bibliotecas para criar uma API
 const express       = require('express')
